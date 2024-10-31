@@ -18,6 +18,7 @@ int wav_position = 0;
 /*
  * PWM Interrupt Handler which outputs PWM level and advances the 
  * current sample. 
+ * psdin
  * 
  * We repeat the same value for 8 cycles this means sample rate etc
  * adjust by factor of 8   (this is what bitshifting <<3 is doing)
